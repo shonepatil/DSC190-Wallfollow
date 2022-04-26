@@ -1,0 +1,5 @@
+  File "/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg/find_wall_server.py", line 83
+    break
+    ^
+SyntaxError: 'break' outside loop
+

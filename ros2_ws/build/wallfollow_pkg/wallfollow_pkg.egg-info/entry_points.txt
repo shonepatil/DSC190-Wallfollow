@@ -1,0 +1,7 @@
+[console_scripts]
+find_wall_client = wallfollow_pkg.find_wall_client:main
+find_wall_server = wallfollow_pkg.find_wall_server:main
+my_action_client = wallfollow_pkg.my_action_client:main
+my_action_server = wallfollow_pkg.my_action_server:main
+wallfollow = wallfollow_pkg.wallfollow:main
+

@@ -1,0 +1,22 @@
+[3.373s] Invoking command in '/home/user/ros2_ws/src/wallfollow_pkg': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/find_wall_pkg:/home/user/ros2_ws/install/wallfollow_pkg:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy PYTHONPATH=/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wallfollow_pkg build --build-base /home/user/ros2_ws/build/wallfollow_pkg/build install --prefix /home/user/ros2_ws/install/wallfollow_pkg --record /home/user/ros2_ws/build/wallfollow_pkg/install.log --single-version-externally-managed
+[5.901s] running egg_info
+[5.968s] writing ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/PKG-INFO
+[5.968s] writing dependency_links to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/dependency_links.txt
+[5.968s] writing entry points to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/entry_points.txt
+[5.968s] writing requirements to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/requires.txt
+[5.969s] writing top-level names to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/top_level.txt
+[6.278s] reading manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+[6.283s] writing manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+[6.283s] running build
+[6.284s] running build_py
+[6.287s] running install
+[6.288s] running install_lib
+[6.301s] running install_data
+[6.302s] running install_egg_info
+[6.306s] removing '/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.306s] Copying ../../build/wallfollow_pkg/wallfollow_pkg.egg-info to /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info
+[6.309s] running install_scripts
+[6.497s] Installing find_wall_client script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.497s] Installing wallfollow script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.498s] writing list of installed files to '/home/user/ros2_ws/build/wallfollow_pkg/install.log'
+[6.593s] Invoked command in '/home/user/ros2_ws/src/wallfollow_pkg' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/find_wall_pkg:/home/user/ros2_ws/install/wallfollow_pkg:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy PYTHONPATH=/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wallfollow_pkg build --build-base /home/user/ros2_ws/build/wallfollow_pkg/build install --prefix /home/user/ros2_ws/install/wallfollow_pkg --record /home/user/ros2_ws/build/wallfollow_pkg/install.log --single-version-externally-managed

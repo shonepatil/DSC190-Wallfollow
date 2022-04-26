@@ -1,0 +1,28 @@
+[3.891s] Invoking command in '/home/user/ros2_ws/src/wallfollow_pkg': PYTHONPATH=/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wallfollow_pkg build --build-base /home/user/ros2_ws/build/wallfollow_pkg/build install --prefix /home/user/ros2_ws/install/wallfollow_pkg --record /home/user/ros2_ws/build/wallfollow_pkg/install.log --single-version-externally-managed
+[6.027s] running egg_info
+[6.029s] writing ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/PKG-INFO
+[6.073s] writing dependency_links to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/dependency_links.txt
+[6.073s] writing entry points to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/entry_points.txt
+[6.078s] writing requirements to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/requires.txt
+[6.082s] writing top-level names to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/top_level.txt
+[6.423s] reading manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+[6.426s] writing manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+[6.426s] running build
+[6.426s] running build_py
+[6.427s] copying wallfollow_pkg/wallfollow.py -> /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg
+[6.443s] running install
+[6.444s] running install_lib
+[6.444s] copying /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg/wallfollow.py -> /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg
+[6.444s] byte-compiling /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg/wallfollow.py to wallfollow.cpython-38.pyc
+[6.474s] running install_data
+[6.478s] running install_egg_info
+[6.492s] removing '/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.492s] Copying ../../build/wallfollow_pkg/wallfollow_pkg.egg-info to /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info
+[6.492s] running install_scripts
+[6.531s] Installing find_wall_client script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.532s] Installing find_wall_server script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.532s] Installing my_action_client script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.532s] Installing my_action_server script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.533s] Installing wallfollow script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[6.575s] writing list of installed files to '/home/user/ros2_ws/build/wallfollow_pkg/install.log'
+[6.787s] Invoked command in '/home/user/ros2_ws/src/wallfollow_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wallfollow_pkg build --build-base /home/user/ros2_ws/build/wallfollow_pkg/build install --prefix /home/user/ros2_ws/install/wallfollow_pkg --record /home/user/ros2_ws/build/wallfollow_pkg/install.log --single-version-externally-managed

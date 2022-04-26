@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/custom_interfaces:srv/FindWall.srv",
+    "/home/user/ros2_ws/src/custom_interfaces:action/Move.action"
+  ]
+}

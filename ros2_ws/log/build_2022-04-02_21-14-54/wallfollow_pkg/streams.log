@@ -1,0 +1,22 @@
+[4.797s] Invoking command in '/home/user/ros2_ws/src/wallfollow_pkg': PYTHONPATH=/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wallfollow_pkg build --build-base /home/user/ros2_ws/build/wallfollow_pkg/build install --prefix /home/user/ros2_ws/install/wallfollow_pkg --record /home/user/ros2_ws/build/wallfollow_pkg/install.log --single-version-externally-managed
+[10.496s] running egg_info
+[10.516s] writing ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/PKG-INFO
+[10.516s] writing dependency_links to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/dependency_links.txt
+[10.517s] writing entry points to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/entry_points.txt
+[10.518s] writing requirements to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/requires.txt
+[10.518s] writing top-level names to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/top_level.txt
+[10.790s] reading manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+[10.791s] writing manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+[10.791s] running build
+[10.791s] running build_py
+[10.791s] running install
+[10.852s] running install_lib
+[10.922s] running install_data
+[10.936s] copying launch/main.launch.py -> /home/user/ros2_ws/install/wallfollow_pkg/share/wallfollow_pkg
+[10.937s] running install_egg_info
+[10.940s] removing '/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[10.992s] Copying ../../build/wallfollow_pkg/wallfollow_pkg.egg-info to /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info
+[10.996s] running install_scripts
+[11.205s] Installing wallfollow script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+[11.222s] writing list of installed files to '/home/user/ros2_ws/build/wallfollow_pkg/install.log'
+[11.341s] Invoked command in '/home/user/ros2_ws/src/wallfollow_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wallfollow_pkg build --build-base /home/user/ros2_ws/build/wallfollow_pkg/build install --prefix /home/user/ros2_ws/install/wallfollow_pkg --record /home/user/ros2_ws/build/wallfollow_pkg/install.log --single-version-externally-managed

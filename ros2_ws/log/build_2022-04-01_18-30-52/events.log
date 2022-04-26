@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001203] (wallfollow_pkg) JobQueued: {'identifier': 'wallfollow_pkg', 'dependencies': OrderedDict()}
+[0.003355] (wallfollow_pkg) JobStarted: {'identifier': 'wallfollow_pkg'}
+[0.114864] (-) TimerEvent: {}
+[0.216147] (-) TimerEvent: {}
+[0.319205] (-) TimerEvent: {}
+[0.424898] (-) TimerEvent: {}
+[0.525966] (-) TimerEvent: {}
+[0.672147] (-) TimerEvent: {}
+[0.772920] (-) TimerEvent: {}
+[0.873350] (-) TimerEvent: {}
+[0.974359] (-) TimerEvent: {}
+[1.074831] (-) TimerEvent: {}
+[1.175502] (-) TimerEvent: {}
+[1.276013] (-) TimerEvent: {}
+[1.376974] (-) TimerEvent: {}
+[1.477488] (-) TimerEvent: {}
+[1.578092] (-) TimerEvent: {}
+[1.683386] (-) TimerEvent: {}
+[1.788162] (-) TimerEvent: {}
+[1.891060] (-) TimerEvent: {}
+[1.994504] (-) TimerEvent: {}
+[2.106184] (-) TimerEvent: {}
+[2.206639] (-) TimerEvent: {}
+[2.348311] (-) TimerEvent: {}
+[2.394130] (wallfollow_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wallfollow_pkg', 'build', '--build-base', '/home/user/ros2_ws/build/wallfollow_pkg/build', 'install', '--prefix', '/home/user/ros2_ws/install/wallfollow_pkg', '--record', '/home/user/ros2_ws/build/wallfollow_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/wallfollow_pkg', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://3_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '3_xterm', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451', 'NCCL_VERSION': '2.7.8', 'SLOT_OVPN_MASTER_URI': 'http://3_xterm:11311', 'PWD': '/home/user/ros2_ws/build/wallfollow_pkg', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CUDA_VERSION': '11.1.1', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/wallfollow_pkg:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/ros1_bridge', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GAZEBO_MASTER_HOSTNAME': '3_xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://3_xterm:11311', 'ROS_HOSTNAME': '3_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '533325', 'SLOT_PREFIX': 'd360c954-955a-4a18-bd54-9e2343f530a8', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25623', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SELECTED_ROS_DISTRO': 'foxy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin', 'NODE_VERSION': 'v6.11.2', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20003', '_': '/usr/bin/env'}, 'shell': False}
+[2.472549] (-) TimerEvent: {}
+[2.580249] (-) TimerEvent: {}
+[2.693077] (-) TimerEvent: {}
+[2.795938] (-) TimerEvent: {}
+[2.900127] (-) TimerEvent: {}
+[3.001334] (-) TimerEvent: {}
+[3.103733] (-) TimerEvent: {}
+[3.205995] (-) TimerEvent: {}
+[3.308110] (-) TimerEvent: {}
+[3.472199] (-) TimerEvent: {}
+[3.572713] (-) TimerEvent: {}
+[3.673212] (-) TimerEvent: {}
+[3.773732] (-) TimerEvent: {}
+[3.874390] (-) TimerEvent: {}
+[3.978448] (-) TimerEvent: {}
+[4.078919] (-) TimerEvent: {}
+[4.179454] (-) TimerEvent: {}
+[4.280653] (-) TimerEvent: {}
+[4.381199] (-) TimerEvent: {}
+[4.482421] (-) TimerEvent: {}
+[4.583024] (-) TimerEvent: {}
+[4.683741] (-) TimerEvent: {}
+[4.788126] (-) TimerEvent: {}
+[4.888569] (-) TimerEvent: {}
+[4.989991] (-) TimerEvent: {}
+[5.090497] (-) TimerEvent: {}
+[5.190982] (-) TimerEvent: {}
+[5.292129] (-) TimerEvent: {}
+[5.298136] (wallfollow_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.299310] (wallfollow_pkg) StdoutLine: {'line': b'writing ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/PKG-INFO\n'}
+[5.299793] (wallfollow_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/dependency_links.txt\n'}
+[5.300414] (wallfollow_pkg) StdoutLine: {'line': b'writing entry points to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/entry_points.txt\n'}
+[5.300745] (wallfollow_pkg) StdoutLine: {'line': b'writing requirements to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/requires.txt\n'}
+[5.301211] (wallfollow_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/top_level.txt\n'}
+[5.392289] (-) TimerEvent: {}
+[5.493842] (-) TimerEvent: {}
+[5.603136] (-) TimerEvent: {}
+[5.708119] (-) TimerEvent: {}
+[5.808598] (-) TimerEvent: {}
+[5.893851] (wallfollow_pkg) StdoutLine: {'line': b"reading manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'\n"}
+[5.896319] (wallfollow_pkg) StdoutLine: {'line': b"writing manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'\n"}
+[5.897260] (wallfollow_pkg) StdoutLine: {'line': b'running build\n'}
+[5.902512] (wallfollow_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.903647] (wallfollow_pkg) StdoutLine: {'line': b'copying wallfollow_pkg/wallfollow.py -> /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg\n'}
+[5.904523] (wallfollow_pkg) StdoutLine: {'line': b'running install\n'}
+[5.908715] (-) TimerEvent: {}
+[5.983099] (wallfollow_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.985687] (wallfollow_pkg) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg/wallfollow.py -> /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg\n'}
+[5.995921] (wallfollow_pkg) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg/wallfollow.py to wallfollow.cpython-38.pyc\n'}
+[6.000908] (wallfollow_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.005756] (wallfollow_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.009269] (-) TimerEvent: {}
+[6.014422] (wallfollow_pkg) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.072313] (wallfollow_pkg) StdoutLine: {'line': b'Copying ../../build/wallfollow_pkg/wallfollow_pkg.egg-info to /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info\n'}
+[6.076816] (wallfollow_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.109441] (-) TimerEvent: {}
+[6.172579] (wallfollow_pkg) StdoutLine: {'line': b'Installing wallfollow script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg\n'}
+[6.172935] (wallfollow_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/wallfollow_pkg/install.log'\n"}
+[6.209525] (-) TimerEvent: {}
+[6.309968] (-) TimerEvent: {}
+[6.410658] (-) TimerEvent: {}
+[6.526553] (-) TimerEvent: {}
+[6.632699] (-) TimerEvent: {}
+[6.706999] (wallfollow_pkg) CommandEnded: {'returncode': 0}
+[6.793611] (-) TimerEvent: {}
+[6.805400] (wallfollow_pkg) JobEnded: {'identifier': 'wallfollow_pkg', 'rc': 0}
+[6.809741] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+find_wall = find_wall_pkg.find_wall:main
+

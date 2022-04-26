@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001009] (-) JobUnselected: {'identifier': 'find_wall_pkg'}
+[0.001656] (-) JobUnselected: {'identifier': 'wallfollow_pkg'}
+[0.001803] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001919] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.032200] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.032781] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces'], 'cwd': '/home/user/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://3_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('NCCL_VERSION', '2.7.8'), ('SLOT_OVPN_MASTER_URI', 'http://3_xterm:11311'), ('PWD', '/home/user/ros2_ws/build/custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('CUDA_VERSION', '11.1.1'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/wallfollow_pkg:/home/user/ros2_ws/install/find_wall_pkg:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/wallfollow_pkg:/home/user/ros2_ws/install/find_wall_pkg:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GAZEBO_MASTER_HOSTNAME', '3_xterm'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_xterm:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '533325'), ('SLOT_PREFIX', 'be21a6cc-7380-4b6b-94f5-b4fc0839ec19'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25518'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SELECTED_ROS_DISTRO', 'foxy'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/custom_interfaces'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099346] (-) TimerEvent: {}
+[0.199864] (-) TimerEvent: {}
+[0.300225] (-) TimerEvent: {}
+[0.400608] (-) TimerEvent: {}
+[0.500948] (-) TimerEvent: {}
+[0.601284] (-) TimerEvent: {}
+[0.701639] (-) TimerEvent: {}
+[0.706538] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.801798] (-) TimerEvent: {}
+[0.902263] (-) TimerEvent: {}
+[1.003070] (-) TimerEvent: {}
+[1.034147] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.052667] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.103196] (-) TimerEvent: {}
+[1.173792] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.182721] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.203302] (-) TimerEvent: {}
+[1.295560] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.303388] (-) TimerEvent: {}
+[1.314072] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.315012] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.320983] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.403543] (-) TimerEvent: {}
+[1.458299] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.459921] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.503657] (-) TimerEvent: {}
+[1.602393] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.603738] (-) TimerEvent: {}
+[1.619294] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.620024] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.631029] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.700364] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.700718] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.703837] (-) TimerEvent: {}
+[1.804181] (-) TimerEvent: {}
+[1.904564] (-) TimerEvent: {}
+[2.004941] (-) TimerEvent: {}
+[2.105341] (-) TimerEvent: {}
+[2.205746] (-) TimerEvent: {}
+[2.235023] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.305872] (-) TimerEvent: {}
+[2.406230] (-) TimerEvent: {}
+[2.419848] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.445035] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.506365] (-) TimerEvent: {}
+[2.606774] (-) TimerEvent: {}
+[2.707223] (-) TimerEvent: {}
+[2.789460] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.807346] (-) TimerEvent: {}
+[2.855570] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.907484] (-) TimerEvent: {}
+[3.007890] (-) TimerEvent: {}
+[3.080182] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.108014] (-) TimerEvent: {}
+[3.208431] (-) TimerEvent: {}
+[3.251630] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.252401] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.256571] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.308506] (-) TimerEvent: {}
+[3.408837] (-) TimerEvent: {}
+[3.412080] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.412485] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.509003] (-) TimerEvent: {}
+[3.531213] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.531700] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.609126] (-) TimerEvent: {}
+[3.629408] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.629819] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.709248] (-) TimerEvent: {}
+[3.742825] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.744680] (custom_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.809387] (-) TimerEvent: {}
+[3.909840] (-) TimerEvent: {}
+[4.010313] (-) TimerEvent: {}
+[4.110820] (-) TimerEvent: {}
+[4.114668] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.149217] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.210949] (-) TimerEvent: {}
+[4.311589] (-) TimerEvent: {}
+[4.326477] (custom_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[4.326876] (custom_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Age.msg' doesn't exist\n"}
+[4.327074] (custom_interfaces) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[4.327261] (custom_interfaces) StderrLine: {'line': b"  '/home/user/ros2_ws/src/custom_interfaces'\n"}
+[4.327480] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.327676] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:35 (rosidl_generate_interfaces)\n'}
+[4.327861] (custom_interfaces) StderrLine: {'line': b'\n'}
+[4.328034] (custom_interfaces) StderrLine: {'line': b'\n'}
+[4.330358] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.330565] (custom_interfaces) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[4.330800] (custom_interfaces) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeError.log".\n'}
+[4.342411] (custom_interfaces) CommandEnded: {'returncode': 1}
+[4.411716] (-) TimerEvent: {}
+[4.414950] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[4.425719] (-) EventReactorShutdown: {}

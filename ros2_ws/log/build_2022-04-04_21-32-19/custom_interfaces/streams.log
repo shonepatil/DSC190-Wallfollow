@@ -1,0 +1,42 @@
+[0.087s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wallfollow_pkg:/home/user/ros2_ws/install/find_wall_pkg:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8
+[0.680s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.388s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.389s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.672s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.699s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.207s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.489s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[9.591s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.086s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[13.769s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[16.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.078s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[17.080s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[17.276s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.276s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[17.277s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[17.493s] -- Added test 'lint_cmake' to check CMake code style
+[17.502s] -- Added test 'xmllint' to check XML markup files
+[17.614s] -- Configuring done
+[18.063s] -- Generating done
+[18.066s] -- Build files have been written to: /home/user/ros2_ws/build/custom_interfaces
+[18.902s] [35m[1mScanning dependencies of target custom_interfaces__cpp[0m
+[19.087s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[23.385s] [  2%] Built target custom_interfaces__cpp
+[23.422s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[29.869s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_generator_c[0m
+[30.187s] [  7%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/find_wall__functions.c.o[0m
+[30.967s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/move__functions.c.o[0m
+[31.788s] [ 12%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[32.383s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[32.487s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[36.167s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[36.683s] [ 17%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o[0m
+[37.765s] make[2]: *** [CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:92: CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o] Interrupt
+[37.765s] make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[37.766s] make: *** [Makefile:141: all] Interrupt
+[37.772s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wallfollow_pkg:/home/user/ros2_ws/install/find_wall_pkg:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8

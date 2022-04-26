@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/wallfollow_pkg/wallfollow_pkg.egg-info
+writing ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/requires.txt
+writing top-level names to ../../build/wallfollow_pkg/wallfollow_pkg.egg-info/top_level.txt
+writing manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/wallfollow_pkg/wallfollow_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros2_ws/build/wallfollow_pkg/build
+creating /home/user/ros2_ws/build/wallfollow_pkg/build/lib
+creating /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg
+copying wallfollow_pkg/__init__.py -> /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg
+copying wallfollow_pkg/wallfollow.py -> /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg
+running install
+running install_lib
+creating /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg
+copying /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg/__init__.py -> /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg
+copying /home/user/ros2_ws/build/wallfollow_pkg/build/lib/wallfollow_pkg/wallfollow.py -> /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg
+byte-compiling /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg/wallfollow.py to wallfollow.cpython-38.pyc
+running install_data
+creating /home/user/ros2_ws/install/wallfollow_pkg/share/ament_index
+creating /home/user/ros2_ws/install/wallfollow_pkg/share/ament_index/resource_index
+creating /home/user/ros2_ws/install/wallfollow_pkg/share/ament_index/resource_index/packages
+copying resource/wallfollow_pkg -> /home/user/ros2_ws/install/wallfollow_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/install/wallfollow_pkg/share/wallfollow_pkg
+copying launch/wallfollow_pkg_launch_file.launch.py -> /home/user/ros2_ws/install/wallfollow_pkg/share/wallfollow_pkg
+running install_egg_info
+Copying ../../build/wallfollow_pkg/wallfollow_pkg.egg-info to /home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages/wallfollow_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wallfollow script to /home/user/ros2_ws/install/wallfollow_pkg/lib/wallfollow_pkg
+writing list of installed files to '/home/user/ros2_ws/build/wallfollow_pkg/install.log'

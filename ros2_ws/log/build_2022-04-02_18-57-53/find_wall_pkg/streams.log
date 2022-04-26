@@ -1,0 +1,24 @@
+[3.758s] Invoking command in '/home/user/ros2_ws/src/find_wall_pkg': PYTHONPATH=/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_wall_pkg build --build-base /home/user/ros2_ws/build/find_wall_pkg/build install --prefix /home/user/ros2_ws/install/find_wall_pkg --record /home/user/ros2_ws/build/find_wall_pkg/install.log --single-version-externally-managed
+[5.987s] running egg_info
+[5.988s] writing ../../build/find_wall_pkg/find_wall_pkg.egg-info/PKG-INFO
+[5.988s] writing dependency_links to ../../build/find_wall_pkg/find_wall_pkg.egg-info/dependency_links.txt
+[5.989s] writing entry points to ../../build/find_wall_pkg/find_wall_pkg.egg-info/entry_points.txt
+[5.993s] writing requirements to ../../build/find_wall_pkg/find_wall_pkg.egg-info/requires.txt
+[5.994s] writing top-level names to ../../build/find_wall_pkg/find_wall_pkg.egg-info/top_level.txt
+[6.364s] reading manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'
+[6.391s] writing manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'
+[6.391s] running build
+[6.391s] running build_py
+[6.392s] copying find_wall_pkg/find_wall.py -> /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg
+[6.392s] running install
+[6.489s] running install_lib
+[6.555s] copying /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg/find_wall.py -> /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg
+[6.556s] byte-compiling /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg/find_wall.py to find_wall.cpython-38.pyc
+[6.566s] running install_data
+[6.566s] running install_egg_info
+[6.577s] removing '/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.648s] Copying ../../build/find_wall_pkg/find_wall_pkg.egg-info to /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg-0.0.0-py3.8.egg-info
+[6.649s] running install_scripts
+[6.983s] Installing find_wall script to /home/user/ros2_ws/install/find_wall_pkg/lib/find_wall_pkg
+[6.983s] writing list of installed files to '/home/user/ros2_ws/build/find_wall_pkg/install.log'
+[7.159s] Invoked command in '/home/user/ros2_ws/src/find_wall_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_wall_pkg build --build-base /home/user/ros2_ws/build/find_wall_pkg/build install --prefix /home/user/ros2_ws/install/find_wall_pkg --record /home/user/ros2_ws/build/find_wall_pkg/install.log --single-version-externally-managed

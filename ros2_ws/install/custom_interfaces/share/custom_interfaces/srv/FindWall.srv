@@ -1,0 +1,5 @@
+string move
+              
+
+---
+bool wallfound         # Did it achieve it?

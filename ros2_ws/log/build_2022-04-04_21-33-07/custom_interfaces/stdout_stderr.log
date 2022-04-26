@@ -1,0 +1,209 @@
+[  2%] Built target custom_interfaces__cpp
+[ 12%] Built target custom_interfaces__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 23%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[ 28%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/find_wall__type_support.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/move__type_support.c.o[0m
+[ 33%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 33%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/find_wall__type_support_c.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/move__type_support_c.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 43%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/find_wall__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/move__type_support.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[ 53%] Built target custom_interfaces__rosidl_typesupport_c
+[ 56%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/find_wall__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/move__type_support.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 66%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/find_wall__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/move__type_support.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[ 74%] Built target custom_interfaces__rosidl_typesupport_cpp
+[ 74%] Built target custom_interfaces
+[35m[1mScanning dependencies of target custom_interfaces__py[0m
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target custom_interfaces__py
+[35m[1mScanning dependencies of target custom_interfaces__python[0m
+[ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_find_wall_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/action/_move_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so[0m
+[ 84%] Built target custom_interfaces__python
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 89%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__functions.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__functions.c
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__struct.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__type_support.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/find_wall.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__functions.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__functions.c
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__type_support.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__struct.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/move.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/dds_fastrtps
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__type_support.c
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_c.h
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__type_support.c
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__struct.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__builder.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__traits.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/find_wall.hpp
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__traits.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__struct.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__builder.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/move.hpp
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__type_support.cpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/move__type_support.cpp
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py
+Compiling '/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_find_wall.py
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_find_wall_s.c
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/_move.py
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/__init__.py
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/_move_s.c
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindWall.idl
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.idl
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindWall.srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindWall_Request.msg
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindWall_Response.msg
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.action
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+-- Old export file "/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake].
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Old export file "/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Old export file "/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake
+-- Old export file "/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Old export file "/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml

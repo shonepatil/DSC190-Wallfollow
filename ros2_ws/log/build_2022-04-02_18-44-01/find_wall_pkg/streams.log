@@ -1,0 +1,38 @@
+[2.999s] Invoking command in '/home/user/ros2_ws/src/find_wall_pkg': PYTHONPATH=/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_wall_pkg build --build-base /home/user/ros2_ws/build/find_wall_pkg/build install --prefix /home/user/ros2_ws/install/find_wall_pkg --record /home/user/ros2_ws/build/find_wall_pkg/install.log --single-version-externally-managed
+[5.808s] running egg_info
+[5.809s] creating ../../build/find_wall_pkg/find_wall_pkg.egg-info
+[5.809s] writing ../../build/find_wall_pkg/find_wall_pkg.egg-info/PKG-INFO
+[5.810s] writing dependency_links to ../../build/find_wall_pkg/find_wall_pkg.egg-info/dependency_links.txt
+[5.810s] writing entry points to ../../build/find_wall_pkg/find_wall_pkg.egg-info/entry_points.txt
+[5.810s] writing requirements to ../../build/find_wall_pkg/find_wall_pkg.egg-info/requires.txt
+[5.811s] writing top-level names to ../../build/find_wall_pkg/find_wall_pkg.egg-info/top_level.txt
+[5.917s] writing manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'
+[6.716s] reading manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'
+[6.716s] writing manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'
+[6.716s] running build
+[6.717s] running build_py
+[6.719s] creating /home/user/ros2_ws/build/find_wall_pkg/build
+[6.720s] creating /home/user/ros2_ws/build/find_wall_pkg/build/lib
+[6.721s] creating /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg
+[6.721s] copying find_wall_pkg/find_wall.py -> /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg
+[6.721s] copying find_wall_pkg/__init__.py -> /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg
+[6.721s] running install
+[6.722s] running install_lib
+[6.725s] creating /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg
+[6.726s] copying /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg/find_wall.py -> /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg
+[6.726s] copying /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg/__init__.py -> /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg
+[6.727s] byte-compiling /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg/find_wall.py to find_wall.cpython-38.pyc
+[6.729s] byte-compiling /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg/__init__.py to __init__.cpython-38.pyc
+[6.730s] running install_data
+[6.733s] creating /home/user/ros2_ws/install/find_wall_pkg/share/ament_index
+[6.735s] creating /home/user/ros2_ws/install/find_wall_pkg/share/ament_index/resource_index
+[6.736s] creating /home/user/ros2_ws/install/find_wall_pkg/share/ament_index/resource_index/packages
+[6.737s] copying resource/find_wall_pkg -> /home/user/ros2_ws/install/find_wall_pkg/share/ament_index/resource_index/packages
+[6.738s] copying package.xml -> /home/user/ros2_ws/install/find_wall_pkg/share/find_wall_pkg
+[6.738s] copying launch/find_wall_launch_file.launch.py -> /home/user/ros2_ws/install/find_wall_pkg/share/find_wall_pkg
+[6.739s] running install_egg_info
+[6.799s] Copying ../../build/find_wall_pkg/find_wall_pkg.egg-info to /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg-0.0.0-py3.8.egg-info
+[6.802s] running install_scripts
+[7.001s] Installing find_wall script to /home/user/ros2_ws/install/find_wall_pkg/lib/find_wall_pkg
+[7.001s] writing list of installed files to '/home/user/ros2_ws/build/find_wall_pkg/install.log'
+[7.124s] Invoked command in '/home/user/ros2_ws/src/find_wall_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/find_wall_pkg build --build-base /home/user/ros2_ws/build/find_wall_pkg/build install --prefix /home/user/ros2_ws/install/find_wall_pkg --record /home/user/ros2_ws/build/find_wall_pkg/install.log --single-version-externally-managed

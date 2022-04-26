@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (-) JobUnselected: {'identifier': 'wallfollow_pkg'}
+[0.000310] (find_wall_pkg) JobQueued: {'identifier': 'find_wall_pkg', 'dependencies': OrderedDict()}
+[0.000379] (find_wall_pkg) JobStarted: {'identifier': 'find_wall_pkg'}
+[0.090992] (-) TimerEvent: {}
+[0.203982] (-) TimerEvent: {}
+[0.312122] (-) TimerEvent: {}
+[0.412677] (-) TimerEvent: {}
+[0.515022] (-) TimerEvent: {}
+[0.615422] (-) TimerEvent: {}
+[0.716071] (-) TimerEvent: {}
+[0.816514] (-) TimerEvent: {}
+[0.919637] (-) TimerEvent: {}
+[1.084076] (-) TimerEvent: {}
+[1.184525] (-) TimerEvent: {}
+[1.284926] (-) TimerEvent: {}
+[1.385469] (-) TimerEvent: {}
+[1.489926] (-) TimerEvent: {}
+[1.590320] (-) TimerEvent: {}
+[1.692939] (-) TimerEvent: {}
+[1.795333] (-) TimerEvent: {}
+[1.898555] (-) TimerEvent: {}
+[1.999749] (-) TimerEvent: {}
+[2.100170] (-) TimerEvent: {}
+[2.203515] (-) TimerEvent: {}
+[2.303885] (-) TimerEvent: {}
+[2.405743] (-) TimerEvent: {}
+[2.507388] (-) TimerEvent: {}
+[2.612187] (-) TimerEvent: {}
+[2.713364] (-) TimerEvent: {}
+[2.814092] (-) TimerEvent: {}
+[2.914606] (-) TimerEvent: {}
+[3.015913] (-) TimerEvent: {}
+[3.120297] (-) TimerEvent: {}
+[3.223212] (-) TimerEvent: {}
+[3.324294] (-) TimerEvent: {}
+[3.394064] (find_wall_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/find_wall_pkg', 'build', '--build-base', '/home/user/ros2_ws/build/find_wall_pkg/build', 'install', '--prefix', '/home/user/ros2_ws/install/find_wall_pkg', '--record', '/home/user/ros2_ws/build/find_wall_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/find_wall_pkg', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://3_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '3_xterm', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451', 'NCCL_VERSION': '2.7.8', 'SLOT_OVPN_MASTER_URI': 'http://3_xterm:11311', 'PWD': '/home/user/ros2_ws/build/find_wall_pkg', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CUDA_VERSION': '11.1.1', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/wallfollow_pkg:/home/user/ros2_ws/install/find_wall_pkg:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/ros1_bridge', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/wallfollow_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GAZEBO_MASTER_HOSTNAME': '3_xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://3_xterm:11311', 'ROS_HOSTNAME': '3_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '533325', 'SLOT_PREFIX': 'f47999b3-e388-4b06-8eb4-fafe67a9ab1c', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25616', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SELECTED_ROS_DISTRO': 'foxy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin', 'NODE_VERSION': 'v6.11.2', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20003', '_': '/usr/bin/env'}, 'shell': False}
+[3.484100] (-) TimerEvent: {}
+[3.585611] (-) TimerEvent: {}
+[3.695963] (-) TimerEvent: {}
+[3.796977] (-) TimerEvent: {}
+[3.897928] (-) TimerEvent: {}
+[3.998619] (-) TimerEvent: {}
+[4.103756] (-) TimerEvent: {}
+[4.206289] (-) TimerEvent: {}
+[4.309595] (-) TimerEvent: {}
+[4.410681] (-) TimerEvent: {}
+[4.516286] (-) TimerEvent: {}
+[4.616739] (-) TimerEvent: {}
+[4.717183] (-) TimerEvent: {}
+[4.884584] (-) TimerEvent: {}
+[4.985717] (-) TimerEvent: {}
+[5.092598] (-) TimerEvent: {}
+[5.192991] (-) TimerEvent: {}
+[5.293454] (-) TimerEvent: {}
+[5.396101] (-) TimerEvent: {}
+[5.497273] (-) TimerEvent: {}
+[5.598285] (-) TimerEvent: {}
+[5.699035] (-) TimerEvent: {}
+[5.800854] (-) TimerEvent: {}
+[5.901294] (-) TimerEvent: {}
+[6.002328] (-) TimerEvent: {}
+[6.106492] (-) TimerEvent: {}
+[6.220071] (-) TimerEvent: {}
+[6.320465] (-) TimerEvent: {}
+[6.423573] (-) TimerEvent: {}
+[6.492727] (find_wall_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.493415] (find_wall_pkg) StdoutLine: {'line': b'writing ../../build/find_wall_pkg/find_wall_pkg.egg-info/PKG-INFO\n'}
+[6.493649] (find_wall_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/find_wall_pkg/find_wall_pkg.egg-info/dependency_links.txt\n'}
+[6.493903] (find_wall_pkg) StdoutLine: {'line': b'writing entry points to ../../build/find_wall_pkg/find_wall_pkg.egg-info/entry_points.txt\n'}
+[6.494136] (find_wall_pkg) StdoutLine: {'line': b'writing requirements to ../../build/find_wall_pkg/find_wall_pkg.egg-info/requires.txt\n'}
+[6.494349] (find_wall_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/find_wall_pkg/find_wall_pkg.egg-info/top_level.txt\n'}
+[6.523700] (-) TimerEvent: {}
+[6.624669] (-) TimerEvent: {}
+[6.725650] (-) TimerEvent: {}
+[6.826076] (-) TimerEvent: {}
+[6.890875] (find_wall_pkg) StdoutLine: {'line': b"reading manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'\n"}
+[6.892406] (find_wall_pkg) StdoutLine: {'line': b"writing manifest file '../../build/find_wall_pkg/find_wall_pkg.egg-info/SOURCES.txt'\n"}
+[6.892701] (find_wall_pkg) StdoutLine: {'line': b'running build\n'}
+[6.892963] (find_wall_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.893186] (find_wall_pkg) StdoutLine: {'line': b'copying find_wall_pkg/find_wall.py -> /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg\n'}
+[6.893395] (find_wall_pkg) StdoutLine: {'line': b'running install\n'}
+[6.907044] (find_wall_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.908698] (find_wall_pkg) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/find_wall_pkg/build/lib/find_wall_pkg/find_wall.py -> /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg\n'}
+[6.909662] (find_wall_pkg) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg/find_wall.py to find_wall.cpython-38.pyc\n'}
+[6.911025] (find_wall_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.984022] (-) TimerEvent: {}
+[7.004584] (find_wall_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.085000] (-) TimerEvent: {}
+[7.086635] (find_wall_pkg) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.088067] (find_wall_pkg) StdoutLine: {'line': b'Copying ../../build/find_wall_pkg/find_wall_pkg.egg-info to /home/user/ros2_ws/install/find_wall_pkg/lib/python3.8/site-packages/find_wall_pkg-0.0.0-py3.8.egg-info\n'}
+[7.098434] (find_wall_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.187442] (-) TimerEvent: {}
+[7.214054] (find_wall_pkg) StdoutLine: {'line': b'Installing find_wall script to /home/user/ros2_ws/install/find_wall_pkg/lib/find_wall_pkg\n'}
+[7.214839] (find_wall_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/find_wall_pkg/install.log'\n"}
+[7.288778] (-) TimerEvent: {}
+[7.390226] (-) TimerEvent: {}
+[7.408011] (find_wall_pkg) CommandEnded: {'returncode': 0}
+[7.490440] (-) TimerEvent: {}
+[7.526976] (find_wall_pkg) JobEnded: {'identifier': 'find_wall_pkg', 'rc': 0}
+[7.528781] (-) EventReactorShutdown: {}
